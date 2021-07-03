@@ -7,7 +7,8 @@
  		func-LLF(LL): code to run LLF with Local Linear splitting algorithm
 		func-RF: code to run RF
 		func-"model"_WITH_VARIMP: computes predictions of models with variable importance measurement 
-###	run: contains the code that executes the functions 
+###	run: contains the code that executes the functions, 
+		If you want to run LLF or RF with variable importance then change the file name in the R code. 
 ###	first_sample_data: R workspace with data loaded 
 
 ## second-sample: 
